@@ -1,0 +1,584 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'proxima nova', Helvetica, sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+    z-index: 5;
+}
+
+.cabecalho {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.cabecalho img {
+    position: relative;
+    transform: translateY(30px);
+    filter: drop-shadow(#ffff00 2px 0px 0px);
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.cabecalho a li, .cab-home, .cab-mem, .cab-bio {
+    font-weight: 700;
+    padding: 0px 20px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 10px;
+}
+
+.cabecalho a li:hover, .cab-home:hover, .cab-mem:hover, .cab-bio:hover {
+    border-bottom: 4px solid #ffff00;
+    font-size: 18px;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    top: 40px;
+    right: 250px;
+}
+
+.language-br, .language-eng {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    background-image: url(../Images/20220728-Sale-Home-Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffff00;
+    background-position: left center;
+    padding-top: 40px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+    height: calc(100vh - 60px);
+    margin: auto;
+}
+
+.bg {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+    padding: 2px;
+    transition: all 8.3s cubic-bezier(0, -0.05, 0, 0.98) -2s;
+    background: rgba(0,0,0,0.5) url(../Images/Metallica_Group_72Seasons_Tim-Saccenti_02.jpg) repeat fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+}
+
+.bg:hover {
+    opacity: 1;
+}
+
+.bg:hover .banner {
+    opacity: 0;
+}
+
+
+.member {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 500px;
+    background-color: #fff;
+}
+
+.member h1 {
+    margin: 120px 0px 30px;
+}
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.members-james {
+    background-image: url(../Images/james.png);
+    background-position: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.members-lars {
+    background-image: url(../Images/lars.png);
+    background-position: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.members-kirk {
+    background-image: url(../Images/kirk.png);
+    background-position: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.members-rob {
+    background-image: url(../Images/rob.png);
+    background-position: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.members-james, .members-kirk, .members-lars, .members-rob{
+    width: 110px;
+    height: 350px;
+    background-color: #94811b;;
+    opacity: 0.2;
+    z-index: 2;
+}
+
+.members-james:hover, .members-kirk:hover:hover, .members-lars:hover, .members-rob:hover {
+    opacity: 1;
+    z-index: 2;
+}
+
+.members-click {
+    opacity: 1;
+}
+
+.member-name {
+    margin: 30px 0px 30px;
+    font-size: 30px;
+    border-bottom: 4px solid #94811b;
+    font-weight: bolder;
+}
+
+.member-left {
+    position: relative;
+    left: 100px;
+    top: 200px;
+    font-size: 95px;
+    font-weight: 500;
+    color: #333;
+    -webkit-text-stroke: 1px #554b31;
+    text-shadow: 0px 4px 4px #040300;
+    z-index: 1;
+}
+
+.member-right {
+    position: relative;
+    right: 100px;
+    font-size: 95px;
+    font-weight: 500;
+    color: #333;
+	-webkit-text-stroke: 1px yellow;
+	text-shadow: 0px 4px 4px #282828;
+    z-index: 1;
+}
+
+
+.biografy {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffff00;
+}
+
+.member-biografy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    margin: 35px;
+    padding-top: 75px;
+    font-family: cursive;
+    line-height: 21px;
+}
+
+.biografy iframe {
+    width: 0px;
+}
+
+.albums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 190vh;
+    background-color: black;
+    margin-top: 250px;
+}
+
+.albums h1 {
+    color: white;
+    font-size: 24px;
+    border-bottom: 2px solid yellow;
+}
+
+.albums-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffff0021;
+    width: 90vw;
+    height: auto;
+    margin: 40px 0px;
+    padding: 0px 0px 40px;
+} 
+
+.album {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover {
+    background-image: url(/assets/Images/);
+    background-position: center;
+    background-size: contain;
+    width: 284px;
+    height: 284px;
+    background-color: #fff;
+    margin: 24px 4px 0px;
+    cursor: pointer;
+}
+
+.cover:hover {
+    border: 2px solid white;
+}
+
+.album-release {
+    padding: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+.album-title {
+    color: white;
+    font-size: 14px;
+}
+
+.album-back {
+    display: none;
+    position: relative;
+    top: 54px;
+    left: 540px;
+    width: 100px;
+    height: 25px;
+    background-color: yellow;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+
+.album-desc {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90vw;
+    height: auto;
+    margin: 40px 0px 0px;
+}
+
+.cover-desc {
+    position: relative;
+    bottom: 55px;
+    right: 75px;
+    background-image: url(/assets/Images/);
+    background-position: center;
+    background-size: contain;
+    width: 284px;
+    height: 284px;
+    background-color: #fff;
+    margin: 24px 4px 0px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.title-desc {
+    position: relative;
+    bottom: 35px;
+    right: 75px;
+    color: black;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+.members-desc {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+}
+
+.base-desc, .drums-desc, .guitar-desc, .bass-desc, .base-desc h4, .drums-desc h4, .guitar-desc h4, .bass-desc h4{
+    font-size: 20px;
+    width: 350px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    line-height: 6px;
+    margin: 0px;
+}
+
+.name-desc, .james, .lars, .kirk {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.listen-desc {
+    position: relative;
+    bottom: 18px;
+    right: 75px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 13%;
+    cursor: pointer;
+}
+
+.listen-desc:hover {
+    border: 1px solid white;
+}
+
+.music-title {
+    display: flex;
+    width: 100vw;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.list-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.song-music {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 50%;
+}
+
+.music-desc {
+    position: relative;
+}
+
+.album-info {
+    position: absolute;
+    left: 765px;
+    width: 30%;
+    background-color: #ffff00;
+}
+
+footer {
+    border-top: 2px solid white;
+    color: yellow;
+}
+
+.social-midia {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color:white;
+    margin: 5px;
+}
+
+.social-midia:hover {
+    border-bottom: 2px solid yellow;
+}
+
+
+@media (max-width: 1300px) {
+    .albums-cover {
+        height: 100%;
+    }
+    .albums {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1210px) {
+    .member-name {
+        display: none;
+    }
+
+    .biografy {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1190px) {
+    .member-left, .member-right {
+        font-size: 70px;
+    }
+    .album-back {
+        left:400px
+    }
+    .album-info {
+        position: relative;
+        width: 50%;
+        left: 0px;
+        margin: 5px;
+    }
+    .music-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .music-title {
+        width: 64px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .members-james, .members-kirk, .members-lars, .members-rob {
+        width: 90px;
+        height: 283px;
+    }
+    .member-left, .member-right {
+        font-size: 50px;
+    }
+    .member-left {
+        left: 0px;
+    }
+    .member {
+        margin: 30px 0px -46px;
+    }
+    .language {
+        right: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+    .members {
+        width: 100vw;
+    }
+    .album-back {
+        left: 300px;
+    }
+}
+
+@media (max-width: 850px) {
+    .cabecalho a li, .cab-home, .cab-mem, .cab-bio {
+        padding: 0px 5px 0px;
+    }
+} 
+
+@media (max-width: 700px) {
+    .member-left, .member-right {
+        font-size: 32px;
+    }
+    .album-back {
+        left: 200px;
+    }
+}
+@media (max-width: 610px) {
+    .cabecalho a {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .members-james, .members-kirk, .members-lars, .members-rob {
+        height: 180px;
+    }
+    .member {
+        height: 380px;
+    }
+
+    .member-left {
+        top: 133px;
+    }
+
+    .member-name {
+        display: flex;
+    }
+}
+
+@media (max-width: 520px) {
+    .member-left, .member-right {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .members-james, .members-kirk, .members-lars, .members-rob {
+        height: 130px;
+    }
+
+    .member {
+        height: 338px;
+    }
+    .member-right {
+        bottom: 28px;
+    }
+    .album-back {
+        left:143px
+    }
+    .album-info {
+        position: relative;
+        width: 50%;
+        left: 0px;
+        margin: 5px;
+    }
+    .music-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .music-title {
+        width: 64px;
+    }
+}
