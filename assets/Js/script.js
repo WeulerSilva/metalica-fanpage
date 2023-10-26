@@ -66,7 +66,7 @@ if(languageEng) {
   document.querySelector('.cab-mem').innerHTML = 'Membros';
   document.querySelector('.cab-mem').title = 'MEMBROS';
 
-  document.querySelector('.cab-bio').innerHTML = 'Biografia';
+  document.querySelectorAll('.cab-bio').innerHTML = 'Biografia';
   document.querySelector('.cab-bio').title = 'BIOGRAFIA';
 
   document.querySelector('.member h1').innerHTML = 'Membros';
@@ -98,5 +98,19 @@ document.querySelector('.language-br').addEventListener('click', () => {
     languageEng = false;
     localStorage.setItem('languageEng', languageEng);
     location.reload();
+  }
+})
+
+
+//menu mobile
+document.querySelector('.menu-name').addEventListener('click', () => {
+  let menu = document.querySelector('.menu-list');
+   
+  if(menu.classList.contains('none')) {
+    document.querySelector('.menu-list').classList.add('flex');
+    document.querySelector('.menu-list').classList.remove('none')
+  }else {
+    document.querySelector('.menu-list').classList.add('none');
+    document.querySelector('.menu-list').classList.remove('flex');
   }
 })
