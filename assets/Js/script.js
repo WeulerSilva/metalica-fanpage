@@ -66,7 +66,7 @@ if(languageEng) {
   document.querySelector('.cab-mem').innerHTML = 'Membros';
   document.querySelector('.cab-mem').title = 'MEMBROS';
 
-  document.querySelectorAll('.cab-bio').innerHTML = 'Biografia';
+  document.querySelector('.cab-bio').innerHTML = 'Biografia';
   document.querySelector('.cab-bio').title = 'BIOGRAFIA';
 
   document.querySelector('.member h1').innerHTML = 'Membros';

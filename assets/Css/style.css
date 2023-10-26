@@ -591,6 +591,12 @@ footer {
     .member-left, .member-right {
         font-size: 22px;
     }
+    .language-br, .language-eng {
+        font-size: 11px;
+    }
+    .cab-menu {
+        right: 300px;
+    }
 }
 
 
@@ -621,5 +627,14 @@ footer {
     }
     .music-title {
         width: 64px;
+    }
+}
+
+@media (max-width: 470px) {
+    .cab-menu {
+        right: 280px;
+    }
+    .language {
+        right: 1px;
     }
 }
