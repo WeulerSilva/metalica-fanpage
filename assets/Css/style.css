@@ -89,14 +89,14 @@ header {
     right: 8px;
 }
 
-.menu-list ul {
+.menu-list ul a{
     display: flex;
     flex-direction: column;
     list-style: none;
     cursor: pointer;
 }
 
-.menu-list ul li:hover {
+.menu-list ul a:hover {
     border-bottom: 4px solid #ffff;
     font-size: 18px;
 }
@@ -563,6 +563,12 @@ footer {
 @media (max-width: 610px) {
     .cabecalho a {
         display: none;
+    }
+    .cabecalho ul {
+        flex-direction: column;
+    }
+    .cabecalho a li {
+        padding: 0px 0px 20px;
     }
     .cab-menu {
         display: flex;
