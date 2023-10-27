@@ -162,7 +162,6 @@ header {
     opacity: 0;
 }
 
-
 .member {
     display: flex;
     justify-content: flex-start;
@@ -635,6 +634,6 @@ footer {
         right: 280px;
     }
     .language {
-        right: 1px;
+        right: 5px;
     }
 }
