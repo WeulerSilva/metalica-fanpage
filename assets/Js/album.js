@@ -221,7 +221,7 @@ for (const key in album) {
     titleDiv.textContent = element.title;
     albumDiv.appendChild(titleDiv);
 
-    cover.style.backgroundImage = `url(../Images/${element.img}.jfif)`
+    cover.style.backgroundImage = `url(./assets/Images/${element.img}.jfif)`
     document.querySelector('.albums-cover').appendChild(albumDiv);
 
 
@@ -232,7 +232,7 @@ for (const key in album) {
       document.querySelector('.album-desc').style.display = 'flex';
       document.querySelector('.album-back').style.display = 'flex';
 
-      document.querySelector('.cover-desc').style.backgroundImage = `url(../Images/${element.img}.jfif)`;
+      document.querySelector('.cover-desc').style.backgroundImage = `url(./assets/Images/${element.img}.jfif)`;
 
       document.querySelector('.listen-desc').addEventListener('click', () => {
         window.open(element.link)
