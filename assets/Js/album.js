@@ -20,7 +20,8 @@ const album = {
     bass: 'ROBERT TRUJILLO',
     songs: [ 'THE ECSTASY OF GOLD', 'THE CALL OF KTULU', 'FOR WHOM THE BELL TOLLS', 'THE DAY THAT NEVER COMES', 'THE MEMORY REMAINS', 'CONFUSION', 'MOTH INTO FLAME', 'THE OUTLAW TORN', 'NO LEAF CLOVER', 'HALO ON FIRE', 'INTRO TO SCYTHIAN SUITE', 'SCYTHIAN SUITE', 'INTRO TO THE IRON FOUNDRY','THE IRON FOUNDRY,OPUS 19', 'THE UNFORGIVIN III', 'ALL WHITIN MY HANDS', '(ANASTHESIA) - PULLING TEETH', 'WHEREVER I MAY ROAM', 'ONE', 'MASTER OF PUPPETS', 'NOTHING ELSE MATTERS', 'ENTER SANDMAN'],
     link: 'https://metallica.lnk.to/S-M2',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   hardwired: {
     name: 'album',
@@ -31,7 +32,8 @@ const album = {
     bass: 'ROBERT TRUJILLO',
     songs:  ['HARDWIRED','ATLAS,RISE!','NOW THAT WE´RE DEAD','MOTH INTO FLAME','DREAM NO MORE','HALO ON FIRE','CONFUSION','MANUNKIND','HERE COMES REVENGE','AM I SAVAGE?','MURDER ONE','SPIT OUT THE BONE','BONUS: LORDS OF SUMMER'],
     link:'https://metallica.lnk.to/HardwiredToSelf-Destruct',
-    info:''
+    info:'',
+    infoBr: ''
   },
   through: {
     name: 'album',
@@ -42,7 +44,8 @@ const album = {
     bass: 'ROBERT TRUJILLO',
     songs: ['THE ECSTASY OF GOLD','CREEPING DEATH','FOR WHOM THE BELL TOLLS','FUEL','RIDE THE LIGHTNING','ONE','THE MEMORY REMAINS','WHEREVER I MAY ROAM','CYANIDE','...AND JUSTICE FOR ALL','MASTER OF PUPPETS','BATTERY','NOTHING ELSE MATTERS','ENTER SANDMAN','HIT THE LIGHTS','ORION'],
     link: 'https://metallica.lnk.to/ThroughTheNeverMusic',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   death: {
     name: 'album',
@@ -53,7 +56,8 @@ const album = {
     bass: 'ROBERT TRUJILLO',
     songs: ['THAT WAS JUST YOUR LIFE','THE END OF THE LINE','BROKEN,BEAT & SCARRED','THE DAY THAT NEVER COMES','ALL NIGHTMARE LONG','CYANIDE','THE UNFORGIVEN III','THE JUDAS KISS','SUICIDE & REDEMPTION','MY APOCALYPSE'],
     link: 'https://metallica.lnk.to/DeathMagnetic',
-    info:  ''
+    info:  '',
+    infoBr: ''
   },
   anger: {
     name: 'album',
@@ -64,7 +68,8 @@ const album = {
     bass: 'BOB ROCK',
     songs: ['FRANTIC','ST.ANGER','SOME KIND OF MONSTER','DIRTY WINDOW','INVISIBLE KID','MY WORLD','SHOOT ME AGAIN','SWEET AMBER','THE UNNAMED FEELING','PURIFY','ALL WITHON MY HANDS'],
     link: 'https://metallica.lnk.to/StAnger',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   sem: {
     name: 'album',
@@ -75,7 +80,8 @@ const album = {
     bass: 'JASON NEWSTED',
     songs: ['THE ECSTASY OF GOLD','THE CALL OF KTULU','MASTER OF PUPPETS','OF WOLF AND MAN','THE THING THAT SHOULD NOT BE','FUEL','THE MEMORY REMAINS','NO LEAF CLOVER','HERO OF THE DAY','DEVIL´S DANCE','BLEEDING ME','NOTHING ELSE MATTERS','UNTIL IT SLEEPS','FOR WHOM THE BELL TOLLS','-HUMAN','WHEREVER I MAY ROAM','THE OUTLAW TORN','SAD BUT TRUE','ONE','ENTER SANDMAN','BATTERY'],
     link: 'https://metallica.lnk.to/S-M',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   garage: {
     name: 'album',
@@ -86,7 +92,8 @@ const album = {
     bass: 'JASON NEWSTED',
     songs: ['FREE SPEECH FOR THE DUMB','IT´S ELECTRIC','SABBRA CADABRA','TURN THE PAGE','DIE,DIE MY DARLING','LOVERMAN','MERCYFUL FATE','ASTRONOMY','WHISKEY IN THE JAR','TUESDAY´S GONE','THE MORE I SEE'],
     link: 'https://metallica.lnk.to/GarageInc',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   reload: {
     name: 'album',
@@ -97,7 +104,8 @@ const album = {
     bass: 'JASON NEWSTED',
     songs: ['FUEL','THE MEMORY REMAINS','DEVIL`S DANCE','THE UNFORGIVEN II','BETTER THAN YOU','SLIPTHER','CARPE DIEM BABY','BAD SEED','WHERE THE WILD THINGS ARE','PRINCE CHARMING','LOW MAN`S LYRIC','ATTITUDE','FIXXXER'],
     link: 'https://metallica.lnk.to/Reload',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   load: {
     name: 'album',
@@ -108,7 +116,8 @@ const album = {
     bass: 'JASON NEWSTED',
     songs: ['AIN`T MY BITCH','2 X 4','THE HOUSE JACK BUILT','UNTIL IT SLEEPS','KING NOTHING','HERO OF THE DAY','BLEEDING ME','CURE','POOR TWISTED ME','WASTING MY HATE','MAMA SAID','THORN WITHIN','RONNIE','THE OUTLAW TORN'],
     link: 'https://metallica.lnk.to/LoadAlbum',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   metallica: {
     name: 'album',
@@ -119,7 +128,8 @@ const album = {
     bass: 'JASON NEWSTED',
     songs: ['ENTER SANDMAN','SAD BUT TRUE','HOLIER THAN THOU','THE UNFORGIVEN','WHEREVER I MAY ROAM','DON`T TREAT ON ME','THROUGH THE NEVER','NOTHING ELSE MATTERS','OF WOLF AND MAN','THE GOD THAT FAILED','MY FRIEND OF MISERY','THE STRUGGLE WITHIN'],
     link: 'https://metallica.lnk.to/MetallicaRemastered',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   justice: {
     name: 'album',
@@ -130,7 +140,8 @@ const album = {
     bass: 'JASON NEWSTED',
     songs: ['BLACKENED','...AND JUSTICE FOR ALL','EYE OF THE BEHOLDER','ONE','THE SHORTEST STRAW','HARVESTER OF SORROW','THE FRAYED ENDS OF SANITY','TO LIVE IS TO DIE','DYERS EVE'],
     link: 'https://metallica.lnk.to/AndJusticeforAllRemastered',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   revisited: {
     name: 'album',
@@ -141,7 +152,8 @@ const album = {
     bass: 'JASON NEWSTED',
     songs: ['HELPLESS','THE SMALL HOURS','THE WAIT','CRASH COURSE IN BRAIN SURGERY','LAST CARESS/GREEN HELL'],
     link: '',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   master: {
     name: 'album',
@@ -152,7 +164,8 @@ const album = {
     bass:'CLIFF BURTON',
     songs: ['BATTERY','MASTER OF PUPPETS','THE THING THAT SHOULD NOT BE','WELCOME HOME (SANITARIUM)','DISPOSABLE HEROES','LEPER MESSIAH','ORION','DAMAGE, INC.'],
     link: 'https://metallica.lnk.to/MasterOfPuppetsRemastered',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   ride: {
     name: 'album',
@@ -163,7 +176,8 @@ const album = {
     bass:'CLIFF BURTON',
     songs: ['FIGHT FIRE WITH FIRE','RIDE THE LIGHTNING','FOR WHOM THE BELL TOLLS','FADE TO BLACK','TRAPPED UNDER ICE','ESCAPE','CREEPING DEATH','THE CALL OF KTULU'],
     link: 'https://metallica.lnk.to/RideTheLightningRemastered',
-    info: ''
+    info: '',
+    infoBr: ''
   },
   kill: {
     name: 'album',
@@ -174,7 +188,8 @@ const album = {
     bass:'CLIFF BURTON',
     songs: ['HIT THE LIGHTS','THE FOUR HORSEMEN','MOTORBREATH','JUMP IN THE FIRE','(ANESTHESIA) - PULLING TEETH','WHIPLASH','PHANTOM LORD','NO REMORSE','SEEK & DESTROY','METAL MILITIA'],
     link: 'https://metallica.lnk.to/KillEmAllRemastered',
-    info: ''
+    info: '',
+    infoBr: ''
   },
 }
 
@@ -206,7 +221,7 @@ for (const key in album) {
     titleDiv.textContent = element.title;
     albumDiv.appendChild(titleDiv);
 
-    cover.style.backgroundImage = `url(/assets/Images/${element.img}.jfif)`
+    cover.style.backgroundImage = `url(../Images/${element.img}.jfif)`
     document.querySelector('.albums-cover').appendChild(albumDiv);
 
 
@@ -217,7 +232,7 @@ for (const key in album) {
       document.querySelector('.album-desc').style.display = 'flex';
       document.querySelector('.album-back').style.display = 'flex';
 
-      document.querySelector('.cover-desc').style.backgroundImage = `url(/assets/Images/${element.img}.jfif)`;
+      document.querySelector('.cover-desc').style.backgroundImage = `url(../Images/${element.img}.jfif)`;
 
       document.querySelector('.listen-desc').addEventListener('click', () => {
         window.open(element.link)
