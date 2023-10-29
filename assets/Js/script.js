@@ -103,8 +103,10 @@ document.querySelector('.language-br').addEventListener('click', () => {
 
 
 //menu mobile
+let menu = document.querySelector('.menu-list');
+let menuName = document.querySelector('.menu-name');
+
 document.querySelector('.menu-name').addEventListener('click', () => {
-  let menu = document.querySelector('.menu-list');
    
   if(menu.classList.contains('none')) {
     document.querySelector('.menu-list').classList.add('flex');
@@ -112,5 +114,12 @@ document.querySelector('.menu-name').addEventListener('click', () => {
   }else {
     document.querySelector('.menu-list').classList.add('none');
     document.querySelector('.menu-list').classList.remove('flex');
+  }
+})
+
+document.addEventListener('click', (e) => {
+  if(e.target !== menu && e.target !== menuName) {
+      menu.classList.remove('flex');
+      menu.classList.add('none');
   }
 })
