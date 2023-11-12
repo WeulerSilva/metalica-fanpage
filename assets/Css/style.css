@@ -633,13 +633,37 @@ footer {
     .music-title {
         width: 64px;
     }
-}
-
-@media (max-width: 470px) {
     .cab-menu {
         right: 280px;
     }
     .language {
-        right: 5px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cabecalho img {
+        max-width: 200px;
+    }
+    .cab-menu {
+        right: 220px;
+    }
+    .members {
+        width: 110vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .members {
+        width: 135vw;
+    }
+}
+
+@media (max-width: 350px) {
+    .cab-menu {
+        right: 200px;
+    }
+    .language {
+        right: 15px;
     }
 }
